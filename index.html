@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="nav">
+        <h1>Bereket Meles</h1>
+        <div class="iv">
+            <button class="button live" data-id="Home">Home</button>
+            <button class="button" data-id="Projects">Projects</button>
+            <button class="button" data-id="Contact">Contact</button>
+            <input type="checkbox" class="input" id="dark-mode">
+            <label for="dark-mode" class="label">
+                <div class="circle"></div>
+            </label>
+        </div>
+        <div class="dropdown-container">
+            <i class="fa-solid fa-bars dropdown-button"></i>
+            <div class="dropdown-list">
+              <button class="button live" data-id="Home">Home</button>
+              <button class="button" data-id="Projects">Projects</button>
+              <button class="button" data-id="Contact">Contact</button>
+            </div>
+          </div>
+    </div>
+    <div class="container">
+        <div class="content">
+            <div class="text live" id="Home">
+                <h2>Welcome to my Portfolio <span class="hand">&#x1F44B;</span></h2>
+                <p>
+                    Hello, My name is Bereket Meles. I'm a third-year software engineering student and a junior frontend developer.
+                </p>
+            </div>
+            <div class="text" id="Projects">
+                <p>
+                    While I haven't completed formal projects yet, I have been actively developing my skills and knowledge through various avenues. I have a solid foundation in frontend development, which I have acquired through my studies and personal exploration.
+                </p>
+            </div>
+            <div class="text con" id="Contact">
+                <p>
+                    I'm thrilled to connect with you! Whether you have questions, collaboration opportunities, or just want to say hello, feel free to reach out to me using the contact information below    
+                </p>
+                <div class="icons">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                </div>
+            </div>
+        </div>
+        <div class="img-container">
+            <img src="https://w0.peakpx.com/wallpaper/633/636/HD-wallpaper-bugs-bunny-cartoon-character-looney-tunes-thumbnail.jpg" alt="">
+        </div>
+    </div>
+    <div class="header">
+        <h1 class="hh"></h1>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
